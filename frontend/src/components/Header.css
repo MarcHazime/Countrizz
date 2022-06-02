@@ -1,0 +1,193 @@
+header {
+  background-color: var(--background-color);
+  justify-content: flex-end;
+  font-family: "Chango", cursive;
+  color: var(--Main-Font-Color);
+  font-size: x-large;
+  display: flex;
+
+  padding-right: 10%;
+  margin-left: 300px;
+  transform: translateY(60px);
+  z-index: 20;
+  background-color: transparent;
+}
+
+.homeLink {
+  display: flex;
+  justify-content: flex-start;
+  font-size: x-large;
+  width: 100vw;
+  font-family: "Chango";
+  list-style-type: none;
+  transform: translateY(-35px);
+  margin-right: 350px;
+  background-color: transparent;
+}
+a {
+  display: flex;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.finalScore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin-left: 25px;
+  font-family: "Chango";
+  color: var(--Main-Font-Color);
+  background-color: transparent;
+  text-shadow: 5px 2px 1px black;
+}
+.playerScore {
+  margin-left: 25px;
+  z-index: 20;
+  background-color: transparent;
+  text-shadow: 5px 2px 1px black;
+}
+@media (max-width: 425px) {
+  header {
+    background-color: var(--background-color);
+    justify-content: flex-end;
+    flex-direction: row;
+    font-family: "Chango", cursive;
+    color: var(--Main-Font-Color);
+    font-size: x-large;
+    display: flex;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-shadow: 5px 2px 1px black;
+    margin-left: 50px;
+    transform: translateY(60px);
+    background-color: transparent;
+    max-width: 300px;
+  }
+
+  .homeLink {
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+    max-width: 360px;
+    font-family: "Chango";
+    list-style-type: none;
+    transform: translateY(25px);
+    margin-left: -20px;
+    background-color: transparent;
+    z-index: 10;
+  }
+  li {
+    max-width: 360px;
+  }
+  a {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    z-index: 1;
+    max-width: 360px;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    max-height: 60px;
+
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+  }
+  ul {
+    max-height: 1px;
+    display: flex;
+    max-width: 320px;
+  }
+
+  .finalScore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+    font-family: "Chango";
+    color: var(--Main-Font-Color);
+    background-color: transparent;
+  }
+  .playerScore {
+    margin-left: 2px;
+    background-color: transparent;
+    min-width: 150px;
+  }
+
+  /* fold */
+}
+@media (min-width: 425px) and (max-width: 676px) {
+  header {
+    background-color: var(--background-color);
+    justify-content: flex-end;
+    flex-direction: row;
+    font-family: "Chango", cursive;
+    color: var(--Main-Font-Color);
+    font-size: x-large;
+    display: flex;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    text-shadow: 5px 2px 1px black;
+    margin-left: 50px;
+    transform: translateY(60px);
+    background-color: transparent;
+    max-width: 300px;
+  }
+
+  .homeLink {
+    display: flex;
+    justify-content: flex-start;
+    font-size: large;
+    max-width: 360px;
+    font-family: "Chango";
+    list-style-type: none;
+    transform: translateY(25px);
+    margin-left: -20px;
+    background-color: transparent;
+    z-index: 10;
+  }
+  li {
+    max-width: 360px;
+  }
+  a {
+    display: flex;
+    justify-content: flex-start;
+    background-color: transparent;
+    z-index: 1;
+    max-width: 360px;
+  }
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    max-height: 60px;
+
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+  }
+  ul {
+    max-height: 1px;
+    display: flex;
+    max-width: 320px;
+  }
+
+  .finalScore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-left: 20px;
+    font-family: "Chango";
+    color: var(--Main-Font-Color);
+    background-color: transparent;
+  }
+  .playerScore {
+    margin-left: 2px;
+    background-color: transparent;
+    min-width: 150px;
+  }
+}

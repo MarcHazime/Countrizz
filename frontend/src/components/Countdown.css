@@ -1,0 +1,51 @@
+.BtnCountdown {
+  position: absolute;
+  top: 30%;
+  bottom: 50%;
+  right: 50%;
+  left: 37%;
+
+  padding: 10px 20px;
+  text-align: center;
+  font-family: "chango";
+  text-shadow: 2px 1px 5px black;
+  font-size: 100px;
+  color: white;
+  background: #6225e6;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  border-radius: 10px;
+  /* min-width: 380px;
+  max-width: 380px; */
+  width: 250px;
+  height: 200px;
+  border-radius: 100%;
+  z-index: 4000;
+}
+
+@media (max-width: 500px) {
+  .BtnCountdown {
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    right: 50%;
+    left: 37%;
+
+    padding: 10px 20px;
+    text-align: center;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 80px;
+    color: white;
+    background: #6225e6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 10px;
+    /* min-width: 380px;
+  max-width: 380px; */
+    width: 200px;
+    height: 180px;
+    border-radius: 100%;
+    z-index: 4000;
+  }
+}

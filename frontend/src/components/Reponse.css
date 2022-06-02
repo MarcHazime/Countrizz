@@ -1,0 +1,480 @@
+.responses {
+  display: grid;
+  transition: 1s;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 15px;
+  grid-row-gap: 2px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  min-width: 200px;
+  min-height: 200px;
+  justify-content: center;
+  transition: 1100;
+  transform: translateY(-320px);
+  animation: smooth;
+  color: #ffee03a1;
+  z-index: 10000;
+}
+
+.wrapperRep {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.ctaRep {
+  display: block;
+  padding: 4px 4px;
+  text-decoration: none;
+  font-family: "chango";
+  text-shadow: 2px 1px 5px black;
+  font-size: 20px;
+  color: white;
+  background: #6225e6be;
+  transition: 1s;
+  box-shadow: 3px 3px 0 black;
+  border-radius: 15px;
+  min-width: 280x;
+  max-width: 280px;
+  max-height: 85px;
+}
+
+.wrapperRep {
+  display: grid;
+  gap: 12px;
+}
+
+.cta:focus {
+  outline: none;
+}
+
+.cta:hover {
+  transition: 0.5s;
+  box-shadow: 10px 10px 0 var(--Main-Font-Color);
+}
+
+.cta span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 0px;
+}
+
+.cta:hover span:nth-child(2) {
+  transition: 0.5s;
+  margin-right: 45px;
+}
+.greenBtn {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: "chango";
+  text-shadow: 2px 1px 5px black;
+  font-size: 22px;
+  color: white;
+  background: green;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  border-radius: 15px;
+  min-width: 200px;
+  max-width: 280px;
+}
+
+.redBtn {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-family: "chango";
+  text-shadow: 2px 1px 5px black;
+  font-size: 22px;
+  color: white;
+  background: red;
+  transition: 1s;
+  box-shadow: 6px 6px 0 black;
+  border-radius: 15px;
+  min-width: 200px;
+  max-width: 280px;
+}
+
+@media (min-width: 678px) {
+  .responses {
+    transition: 1s;
+    justify-content: center;
+    transition: 1100;
+    transform: translateY(-320px);
+    animation: smooth;
+    color: #ffee03a1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    z-index: 10000;
+    justify-content: center;
+  }
+  .wrapperRep {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .ctaRep {
+    display: block;
+    padding-top: 6px;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 18px;
+    color: white;
+    background: #6225e6c2;
+    transition: 1s;
+    box-shadow: 3px 3px 0 black;
+    border-radius: 10px;
+    min-width: 230px;
+    max-width: 240px;
+    min-height: 95px;
+  }
+
+  .wrapperRep {
+    display: grid;
+
+    gap: 2px;
+  }
+
+  .cta:focus {
+    outline: none;
+  }
+
+  .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 var(--Main-Font-Color);
+  }
+
+  .cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+  }
+
+  .cta:hover span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+  }
+  .greenBtn {
+    display: block;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 22px;
+    color: white;
+    background: rgba(0, 128, 0, 0.801);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 15px;
+    min-width: 200px;
+    max-width: 240px;
+    min-height: 95px;
+  }
+
+  .redBtn {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 22px;
+    color: white;
+    background: rgba(255, 0, 0, 0.801);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 240px;
+    min-height: 95px;
+  }
+}
+@media (min-width: 460px) and (max-width: 677px) {
+  .responses {
+    transition: 1s;
+    justify-content: center;
+    transition: 1100;
+    transform: translateY(-280px);
+    animation: smooth;
+    color: #ffee03a1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    z-index: 10000;
+    justify-content: center;
+  }
+  .wrapperRep {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .ctaRep {
+    display: block;
+    padding-top: 6px;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 18px;
+    color: white;
+    background: #6225e6c2;
+    transition: 1s;
+    box-shadow: 3px 3px 0 black;
+    border-radius: 10px;
+    min-width: 210px;
+    max-width: 215px;
+    min-height: 95px;
+  }
+
+  .wrapperRep {
+    display: grid;
+
+    gap: 2px;
+  }
+
+  .cta:focus {
+    outline: none;
+  }
+
+  .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 var(--Main-Font-Color);
+  }
+
+  .cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+  }
+
+  .cta:hover span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+  }
+  .greenBtn {
+    display: block;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 22px;
+    color: white;
+    background: rgba(0, 128, 0, 0.801);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 15px;
+    min-width: 190px;
+    max-width: 215px;
+    min-height: 95px;
+  }
+
+  .redBtn {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 22px;
+    color: white;
+    background: rgba(255, 0, 0, 0.801);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 10px;
+    min-width: 190px;
+    max-width: 215px;
+    min-height: 95px;
+  }
+}
+
+@media (min-width: 390px) and (max-width: 460px) {
+  .responses {
+    transition: 1s;
+    justify-content: center;
+    transition: 1100;
+    transform: translateY(-270px);
+    animation: smooth;
+    color: #ffee03a1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    z-index: 10000;
+    justify-content: center;
+  }
+  .wrapperRep {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .ctaRep {
+    display: block;
+    padding-top: 6px;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 18px;
+    color: white;
+    background: #6225e6c2;
+    transition: 1s;
+    box-shadow: 3px 3px 0 black;
+    border-radius: 10px;
+    min-width: 160px;
+    max-width: 170px;
+    min-height: 95px;
+  }
+
+  .wrapperRep {
+    display: grid;
+
+    gap: 2px;
+  }
+
+  .cta:focus {
+    outline: none;
+  }
+
+  .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 var(--Main-Font-Color);
+  }
+
+  .cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+  }
+
+  .cta:hover span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+  }
+  .greenBtn {
+    display: block;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 22px;
+    color: white;
+    background: rgba(0, 128, 0, 0.801);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 15px;
+    min-width: 160px;
+    max-width: 170px;
+    min-height: 95px;
+  }
+
+  .redBtn {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 22px;
+    color: white;
+    background: rgba(255, 0, 0, 0.801);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 10px;
+    min-width: 160px;
+    max-width: 170px;
+    min-height: 95px;
+  }
+}
+@media (max-width: 390px) {
+  .responses-mobile {
+    transition: 1s;
+    justify-content: center;
+    transition: 1100;
+    transform: translateY(-300px);
+    animation: smooth;
+    color: #ffee03a1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 8px;
+    z-index: 10000;
+    justify-content: center;
+  }
+  .wrapperRep {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+
+  .ctaRep {
+    display: block;
+    padding-top: 6px;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 16px;
+    text-size-adjust: 50%;
+    color: white;
+    background: #6225e6c2;
+    transition: 1s;
+    box-shadow: 3px 3px 0 black;
+    border-radius: 10px;
+    min-width: 155px;
+    max-width: 160px;
+    min-height: 95px;
+  }
+
+  .wrapperRep {
+    display: grid;
+
+    gap: 1px;
+  }
+
+  .cta:focus {
+    outline: none;
+  }
+
+  .cta:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 var(--Main-Font-Color);
+  }
+
+  .cta span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+  }
+
+  .cta:hover span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 20px;
+  }
+  .greenBtn {
+    display: block;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 16px;
+    color: white;
+    background: rgba(0, 128, 0, 0.801);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 15px;
+    min-width: 155px;
+    max-width: 160px;
+    min-height: 90px;
+  }
+
+  .redBtn {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: "chango";
+    text-shadow: 2px 1px 5px black;
+    font-size: 17px;
+    color: white;
+    background: rgba(255, 0, 0, 0.801);
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    border-radius: 10px;
+    min-width: 155px;
+    max-width: 160px;
+    min-height: 90px;
+  }
+}
