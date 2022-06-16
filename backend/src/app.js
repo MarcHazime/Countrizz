@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, "..", "..", "frontend", "dist")));
 
 // API routes
-app.use(router);
+app.use("/api", router);
 
 // Redirect all requests to the REACT app
 app.get("*", (req, res) => {

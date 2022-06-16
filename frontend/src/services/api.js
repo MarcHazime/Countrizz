@@ -4,7 +4,7 @@ import axios from "axios";
 const COUNTRY_API_URL = "https://restcountries.com/v3.1";
 
 // URL de l'API Express
-const LOCAL_API = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000";
+const LOCAL_API = import.meta.env.VITE_BACKEND_URL || "http://localhost:5000/api";
 
 // Stocke la liste complète des pays en mémoire
 let countryList;

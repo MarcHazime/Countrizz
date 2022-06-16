@@ -1,12 +1,12 @@
-GET http://localhost:5000/scores
+GET http://localhost:5000/api/scores
 
 ###
 
-GET http://localhost:5000/scores/1
+GET http://localhost:5000/api/scores/1
 
 ###
 
-POST http://localhost:5000/scores
+POST http://localhost:5000/api/scores
 Content-Type: application/json
 
 {
@@ -16,7 +16,7 @@ Content-Type: application/json
 
 ###
 
-PUT http://localhost:5000/scores/1
+PUT http://localhost:5000/api/scores/1
 Content-Type: application/json
 
 {
@@ -26,4 +26,4 @@ Content-Type: application/json
 
 ###
 
-DELETE http://localhost:5000/scores/2
+DELETE http://localhost:5000/api/scores/2
