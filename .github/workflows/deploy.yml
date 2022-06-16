@@ -27,6 +27,7 @@ jobs:
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
             cd /home/instructor/projects/countrizz
+            git stash
             git pull
             npm run setup
             cd frontend
